@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputField{
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;  
+    margin: 15px;
+    width: 100%;
+    max-width: 300px;
+
+}
+.keywords{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & input{
+        width: 50px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 8px;
+        cursor: pointer;
+    }
+}
